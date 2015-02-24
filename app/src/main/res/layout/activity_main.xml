@@ -1,7 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal" >
+    android:orientation="horizontal"
+    android:background="#f888">
 
     <ListView
         android:id="@+id/listview_bags"
@@ -9,6 +10,6 @@
         android:layout_height="wrap_content"
         android:fastScrollEnabled="true"
         android:focusable="true"
-        android:cacheColorHint="#ffffffff" />
+        />
 
 </LinearLayout>
